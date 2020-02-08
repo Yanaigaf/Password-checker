@@ -35,7 +35,7 @@ def hash_password(password):
 def check_passwords(passwords):
     start_time = time.time()
     for password in passwords:
-        #print(time.time()-start_time)
+        # print(time.time()-start_time)
         enc_password = hash_password(password)
         first5, tail = enc_password[:5], enc_password[5:]
         response = get_api_response(first5)
