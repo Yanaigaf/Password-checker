@@ -1,2 +1,2 @@
 # Password-checker
-Password checker using haveibeenpwned
+Secure password checker utilizing the haveibeenpwned API, without sending plaintext password over the web
